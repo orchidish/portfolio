@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solo Projects — [Your Name]</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand"><span class="dot"></span> [Your Name]</a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="university.html">University</a>
+      <a href="solo-projects.html" class="active">Solo Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">SIDE QUESTS</span>
+        <h1>Solo projects</h1>
+        <p>Things I've built outside of coursework — for fun, to learn something new, or because an idea wouldn't leave me alone.</p>
+      </div>
+
+      <div class="build-note">Duplicate the block below (the whole &lt;article class="pixel-frame card"&gt;…&lt;/article&gt;) for each project you want to add. Swap the status tag colour by changing <code>background:var(--accent)</code> to <code>var(--gold)</code> or <code>var(--magenta)</code> if you want to colour-code by type.</div>
+
+      <div class="grid">
+        <article class="pixel-frame card">
+          <span class="status" style="background:var(--accent);">[Status: e.g. In progress]</span>
+          <h3>[Project title]</h3>
+          <p>[What it does, why you built it, and anything interesting about how it works.]</p>
+          <div class="tag-row left">
+            <span class="tag"><span class="tag-icon" data-icon="code"></span> [Tech used]</span>
+            <span class="tag"><span class="tag-icon" data-icon="code"></span> [Tech used]</span>
+          </div>
+          <div class="links">
+            <a href="#">[Repo link]</a>
+            <a href="#">[Live demo]</a>
+          </div>
+        </article>
+
+        <article class="pixel-frame card">
+          <span class="status" style="background:var(--gold);">[Status: e.g. Completed]</span>
+          <h3>[Project title]</h3>
+          <p>[What it does, why you built it, and anything interesting about how it works.]</p>
+          <div class="tag-row left">
+            <span class="tag"><span class="tag-icon" data-icon="code"></span> [Tech used]</span>
+          </div>
+          <div class="links">
+            <a href="#">[Repo link]</a>
+          </div>
+        </article>
+
+        <article class="pixel-frame card">
+          <span class="status" style="background:var(--magenta);">[Status: e.g. Concept]</span>
+          <h3>[Project title]</h3>
+          <p>[What it does, why you built it, and anything interesting about how it works.]</p>
+          <div class="tag-row left">
+            <span class="tag"><span class="tag-icon" data-icon="code"></span> [Tech used]</span>
+          </div>
+          <div class="links">
+            <a href="#">[Repo link]</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Built by [Your Name] · <span data-year></span> · hosted on GitHub Pages</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
